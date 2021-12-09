@@ -1,0 +1,2 @@
+# posse_event_develop
+POSSEアプリをテック局で作る
