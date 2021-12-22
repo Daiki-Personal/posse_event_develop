@@ -1,3 +1,9 @@
+# posse_event_develop
+POSSEアプリをテック局で作る
+
+■注意
+新規、ユーザーはパスワードがpassword0になっているので、すぐにパスワードを変えるようにしてください
+
 デザインカンプ(Figma)
 
 https://www.figma.com/file/rldThrJS4bw9P6H9rpfBqE/%E6%8C%AF%E3%82%8A%E8%BF%94%E3%82%8A?node-id=0%3A1
@@ -5,13 +11,6 @@ https://www.figma.com/file/rldThrJS4bw9P6H9rpfBqE/%E6%8C%AF%E3%82%8A%E8%BF%94%E3
 ER図
 
 https://drive.google.com/file/d/1M0Kx2b2zNTPlXSRWHPvxKcmiYCtXYRHM/view
-
-
-# posse_event_develop
-POSSEアプリをテック局で作る
-
-■注意
-新規、ユーザーはパスワードがpassword0になっているので、すぐにパスワードを変えるようにしてください
 
 
 ■POSSEアプリを修正したい人へ
