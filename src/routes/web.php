@@ -29,7 +29,7 @@ Route::group(['middleware' => 'login_check'],function () {
         Route::get('/admin/delete-event/{eventId}','Admin\EditEventController@delete')->name('event_delete');
         Route::get('/admin/list-event','Admin\ListEventController@index')->name('list_event');
         Route::get('/admin/detail-event','Admin\DetailEventController@index')->name('detail_event');
-        
+
         // 振り返り
         //振り返り管理者画面
         Route::get('review/admin','Review_admin\ReviewAdminController@index')->name('review_admin_top');
@@ -39,3 +39,12 @@ Route::group(['middleware' => 'login_check'],function () {
     });
 
 });
+
+//振り返りシート
+//振り返りユーザー画面
+Route::group(['prefix' => 'review/user'], function() {
+
+    Route::get('/', 'Review_user\ReviewUserController@index')->name('review_user_top');
+
+  });
+Route::get('review/user', 'Review_user\ReviewUserController@index')->name('review_user_top');

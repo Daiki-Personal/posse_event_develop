@@ -1,0 +1,22 @@
+.max-w-23per {
+    max-width: 200px;
+  }
+  .container {
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
+  }
+  .gap {
+    gap: 10px 10px;
+  }
+  .mx-auto {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  /* top画面チェックボックス */
+  .custom-control-label:before{
+    background-color:gray;
+  }
+  .custom-checkbox .custom-control-input:checked~.custom-control-label::before{
+    background-color:black;
+  }
